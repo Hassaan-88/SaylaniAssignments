@@ -1,0 +1,161 @@
+/* *****************************************HOME CSS************************************************** */
+.b1 {
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    width: auto;
+    height: auto;
+    background-color: lightgreen;
+}
+
+.hdv1 {
+    margin: auto;
+    margin-top: 10px;
+    padding: auto;
+    width: 300px;
+    min-width: 200px;
+    align-content: center;
+    text-align: center;
+}
+
+.hdv2 {
+    margin: auto;
+    padding: auto;
+    margin-top: 10px;
+    width: 90%;
+    min-width: 20%px;
+    align-content: center;
+    text-align: center;
+}
+
+.hdv3 {
+    border: 5px solid red;
+    margin: auto;
+    margin-top: 20px;
+    padding: auto;
+    width: 98%;
+    min-width: 20%px;
+    height: 75px;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(133, 6, 6);
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.hdv4 {
+    margin: auto;
+    margin-top: 10px;
+    padding: auto;
+    width: 80%;
+    min-width: 20%px;
+    align-content: center;
+    text-align: center;
+}
+
+.himg {
+    width: 100%;
+    height: 100%;
+}
+
+.ntable {
+    background-color: cornsilk;
+    border: 3px solid coral;
+    border-radius: 10px;
+    border-width: 5px;
+    border-collapse: collapse;
+    margin-top: 15px;
+    width: 70%px;
+    margin: auto;
+    padding: auto;
+    align-content: center;
+    min-width: 20%;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: oblique;
+    font-variant: small-caps;
+    box-shadow: 10px 10px 20px coral;
+}
+
+.htd1 {
+    text-decoration: underline;
+}
+
+.atable {
+    background-color: cornsilk;
+    border: 3px solid coral;
+    border-radius: 10px;
+    border-width: 5px;
+    border-collapse: collapse;
+    margin-top: 15px;
+    width: 50%px;
+    margin: auto;
+    padding: auto;
+    align-content: center;
+    min-width: 20%px;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: larger;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+    box-shadow: 10px 20px 20px coral;
+}
+
+/* *****************************************FORM CSS************************************************** */
+
+.dv1 {
+    align-content: center;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    width: 100px;
+    max-width: 700px;
+    min-width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fimg {
+    width: 100%;
+    height: 100%;
+    color: red;
+}
+
+.main {
+    border: 2px solid blueviolet;
+    align-content: center;
+    padding: auto;
+    margin: auto;
+    width: 950px;
+    min-width: 10%;
+    color: white;
+    background-color: #6B5ACD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ta1 {
+    border-spacing: 10px;
+    margin: auto;
+    padding: auto;
+    font-size: medium;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tdpadding-left {
+    padding-left: 10px;
+}
+
+.rowspacing {
+    border-collapse: separate;
+    border-spacing: 0 18px;
+}
+
+.heading {
+    color: blueviolet;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
