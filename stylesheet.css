@@ -5,12 +5,88 @@
     justify-content: space-around;
 }
 
+.maindv {
+    background-color: #316DC3;
+}
+
+.logosdv {
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 250px;
+    height: 30px;
+}
+
+.quotedv {
+    color: white;
+    margin-left: 0px;
+    margin-top: 9px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.topbtns {
+    width: 100px;
+    height: 28px;
+    margin-top: 12px;
+    border-radius: 0;
+    color: grey;
+    background-color: rgba(255, 255, 255, 0.952);
+    font-size: 12px;
+}
+
+.saylanilogo {
+    width: 200px;
+    margin-left: 90px;
+}
+
+.navalign {
+    margin-left: 230px;
+}
+
 @media only screen and (max-width:600px) {
     .imgnav {
         margin-right: 50px;
     }
     .acti {
         margin-right: 50px;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .logosdv {
+        margin-left: 30px;
+        margin-right: 120px;
+        height: -100px;
+        display: flex;
+        flex-direction: row;
+    }
+    .kl {
+        display: flex;
+        flex-direction: row;
+    }
+    .fb {
+        margin-right: -3px;
+    }
+    .twt {
+        margin-left: -4px;
+    }
+    .insta {
+        margin-left: -55px;
+    }
+    .yt {
+        margin-left: -55px;
+    }
+    .wa {
+        margin-left: -55px;
+    }
+    .imgnav {
+        margin-right: 50px;
+    }
+    .acti {
+        margin-right: 80px;
+    }
+    .navalign {
+        margin-right: 120px;
     }
 }
 
@@ -218,27 +294,29 @@ img {
 
 @media only screen and (max-width: 600px) {
     img {
-        width: 420px;
+        width: 500px;
         margin-left: 10px;
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 350px) {
     img {
-        width: 200px;
-        margin-left: 40px;
+        width: 350px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
 
 @media only screen and (max-width: 600px) {
     marquee {
-        width: 400px;
+        width: 320px;
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 350px) {
     marquee {
         width: 200px;
+        margin-left: 30px;
     }
 }
 
@@ -258,11 +336,12 @@ img {
     }
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:350px) {
     .countdv {
-        width: 250.5px;
-        height: 525px;
-        margin-left: 10px;
+        width: 300px;
+        height: 1050px;
+        margin-right: 50px;
+        margin-bottom: 50px;
     }
 }
 
@@ -285,12 +364,25 @@ img {
     .dv4 {
         width: 450.5px;
         height: 800px;
-        margin-left: 15px;
+        margin-left: 20px;
     }
     .dv5 {
         width: 450.5px;
         height: 700px;
-        margin-left: 15px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .dv4 {
+        width: 300.5px;
+        height: 600px;
+        margin-left: 20px;
+    }
+    .dv5 {
+        width: 300.5px;
+        height: 600px;
+        margin-left: 20px;
     }
 }
 
@@ -300,10 +392,47 @@ img {
     }
 }
 
+@media only screen and (max-width:350px) {
+    .eventmdv {
+        height: 800px;
+    }
+    .eventheadingalign {
+        margin-left: 40px;
+    }
+    .eventheadingstyle {
+        font-size: 30px;
+    }
+    .eventheadingstyle2 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+}
+
 .main3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+@media only screen and (max-width:350px) {
+    .main3 {
+        display: inline;
+    }
+    .img1 {
+        margin-right: 35px;
+    }
+    .img2 {
+        margin-left: 20px;
+    }
+    .img3 {
+        margin-left: 20px;
+    }
+    .img4 {
+        margin-left: 20px;
+    }
+    .img5 {
+        margin-left: 20px;
+    }
 }
 
 .footermdv {
@@ -311,9 +440,86 @@ img {
     background-color: rgba(0, 0, 20, 0.822);
 }
 
+.footercontacticons {
+    width: 15px;
+    margin: 10px 10px 10px 9px;
+}
+
+.footerglobalicon {
+    width: 15px;
+}
+
 @media only screen and (max-width:600px) {
     .footermdv {
         height: 700px;
+    }
+    .footerdv1 {
+        width: 400px;
+        margin-right: 50px;
+    }
+    .footerdv2 {
+        width: 500px;
+        margin-top: 70px;
+    }
+    .footerdv3 {
+        color: white;
+        position: relative;
+        right: 70px;
+        width: 200px;
+        margin-top: 70px;
+        margin-right: 140px;
+    }
+    .footercontacticons {
+        margin-left: 0px;
+    }
+    .footerglobalicon {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .footermdv {
+        height: 700px;
+    }
+    .footerdv1 {
+        width: 500px;
+        margin-right: 50px;
+    }
+    .footerdv2 {
+        width: 500px;
+        margin-left: 10px;
+    }
+    .footerdv3 {
+        width: 300px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .fkl {
+        display: flex;
+        flex-direction: row;
+    }
+    .footfb {
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+    .foottwt {
+        margin-top: -25px;
+        margin-left: 25px;
+    }
+    .footinsta {
+        margin-bottom: -45px;
+        margin-left: 45px;
+    }
+    .footyt {
+        margin-bottom: 90px;
+        margin-left: 55px;
+    }
+    .footercontacticons {
+        margin-left: 0px;
+    }
+    .footerglobalicon {
+        margin-right: 20px;
+        margin-left: -15px;
     }
 }
 
@@ -325,4 +531,16 @@ img {
     padding-left: 110px;
     padding-top: 17px;
     font-weight: 600;
+}
+
+@media only screen and (max-width:600px) {
+    .crdv {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .crdv {
+        padding-left: 10px;
+    }
 }
