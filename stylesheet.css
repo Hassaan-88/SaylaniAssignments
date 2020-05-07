@@ -544,3 +544,31 @@ img {
         padding-left: 10px;
     }
 }
+
+.scrollUp {
+    display: none;
+    background: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    width: 50px;
+    bottom: 15px;
+    height: 50px;
+    padding: 2px;
+}
+
+.scrollUp:hover{
+    background-color: rgb(97, 95, 95);
+}
+
+@media only screen and (max-width:600px){
+    hr{
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width:350px){
+    hr{
+        width: 8%;
+    }
+}
